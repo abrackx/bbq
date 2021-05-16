@@ -1,0 +1,9 @@
+[package]
+name = "bbq"
+version = "0.1.0"
+authors = ["alex <abrackx@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+generational-arena = { version = "0.2", features = ["serde"] }
+bincode = "1.3.3"
